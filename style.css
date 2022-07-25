@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+button{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin: 7px;
+    
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.buttons{
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%,0); */
+    text-align: center;
+}
+.divider{
+    height: 5px;
+    background-color: black;
+    width: 100vw;
+}
+
+.one{
+    /* background-color: black; */
+    text-align: center;
+    height: 81vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    height: 12px;
+}
+#text{
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid black;
+    font-size: 25px;
+}
